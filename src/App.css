@@ -6,17 +6,82 @@
   height: 100vh;
   background: #f8f8fc;
   color:#302268;
+  
 }
 .navbar{
-  background: #7262b3;
-  width: 100vw;
-  height: 50px;
-  color:#f8f8fc; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7262b3;
+  color: #f8f8fc;
+  line-height: 45px;
 }
+.nav-item{
+  color:#f8f8fc;
+  align-self: stretch;
+  font-weight: 400;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0px 50px;
+  line-height: 60px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.nav-item:hover{
+  background-color: #5b4d92;
+  color: #f1f1ff;
+  transform: scale(1.05);
+}
+
 .Portfolio-Header{
   font-family: Inter;
   font-size: 48px;
 }
 .div-body{
   margin: 15px;
+}
+.Introduction{
+  margin: 50px;
+  text-align: left;
+}
+.rectangle-behind-img {
+  background: #7262b3;
+  border-radius: 10px;
+  width: 449px;
+  height: 602px;
+  position: absolute;
+  left: 897px;
+  top: 109px;
+  aspect-ratio: 449/602;
+}
+.image{
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #f8f8fc;
+  border-width: 6px;
+  width: 449.16px;
+  height: 602px;
+  position: absolute;
+  left: 860px;
+  top: 65px;
+  object-fit: cover;
+  aspect-ratio: 449.16/602;
+}
+.intro-text{
+  margin: 50px;
+  position: absolute;
+  top: 200px;  
+}
+.my-name-is{
+  margin: 10px;
+  text-align: left;
+  font-size: 36px;
+  font-weight: 1000;
+}
+.ima-sw{
+  margin: 10px;
+  font-size: 26px;
+  color: #7262B3;
+  font-weight: 800;
 }

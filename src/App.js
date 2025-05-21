@@ -1,37 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'/>
-      <link rel="stylesheet" href="App.css"></link>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      
       <nav className="navbar">
-        this is a nav bar
+        <div className="nav-item">Home</div>
+        <div className="nav-item">Education</div>
+        <div className="nav-item">Experience</div>
+        <div className="nav-item">Contact</div>
       </nav>
-      <header className="Portfolio-Header">
-        hello there this is a font test
-      </header>
-      <div className="div-body">
-        this is div 1
-        <div className="div-body">
-          this is div 2
-        </div>
+      <div className="Introduction">
+        <div className="rectangle-behind-img"></div>
+        <img className="image" src="/images/Headshot.JPG" alt="Madeleinne's Headshot"/>
+        <div className="intro-text">
+          <div className="my-name-is">Hello, I'm Madeleinne!</div>
+          <div className="ima-sw">I'm a software engineer.</div>
+        </div>        
       </div>
     </div>
 
