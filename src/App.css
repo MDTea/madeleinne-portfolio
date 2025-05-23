@@ -1,4 +1,15 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html, #root {
+  height: 100%;
+  width: 100%;
+  background: #f8f8fc;
+  font-family: Inter, sans-serif;
+}
 .App {
   text-align: center;
   font-family:Inter;
@@ -6,11 +17,8 @@
   height: 100vh;
   background: #f8f8fc;
   color:#302268;
-  
 }
 .navbar{
-  background-color: #7262b3;
-  color: #f8f8fc;
   display: flex;
   flex-direction: row;
   gap: 0px;
@@ -21,6 +29,8 @@
   position: fixed;
   left: 0px;
   top: 0px;
+  background-color: #7262b3;
+  color: #f8f8fc;
 }
 .nav-item{
   color:#f8f8fc;
@@ -176,7 +186,7 @@
   position: relative;
   width: 800px;
 }
-.frame-24{
+.frame-skills-encompassing{
   display: flex;
   flex-direction: column;
   gap: 0px;
@@ -187,7 +197,7 @@
   height: 445px;
   position: relative;
 }
-.frame-22{
+.frame-toptext{
   display: flex;
   flex-direction: row;
   gap: 34px;
@@ -197,7 +207,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.frame-18{
+.frame-web{
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -220,11 +230,11 @@
   text-align: center;
   font-family: "Inter-ExtraBold", sans-serif;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 400;
   position: relative;
   align-self: stretch;
 }
-.frame-19 {
+.frame-data {
   display: flex;
   flex-direction: column;
   gap: 11px;
@@ -247,11 +257,11 @@
   text-align: center;
   font-family: "Inter-ExtraBold", sans-serif;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 400;
   position: relative;
   width: 276px;
 }
-.frame-21 {
+.frame-ai {
   display: flex;
   flex-direction: column;
   gap: 0px;
@@ -269,16 +279,16 @@
   object-fit: cover;
   aspect-ratio: 1;
 }
-.experience-working-with-ai-ll-ms-gemini-api {
+.text-ai-desc {
   color: #302268;
   text-align: center;
   font-family: "Inter-ExtraBold", sans-serif;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 400;
   position: relative;
   align-self: stretch;
 }
-.frame-23 {
+.frame-lowertext {
   display: flex;
   flex-direction: row;
   gap: 130px;
@@ -289,7 +299,7 @@
   height: 224px;
   position: relative;
 }
-.frame-17 {
+.frame-ml {
   display: flex;
   flex-direction: column;
   gap: 0px;
@@ -307,16 +317,16 @@
   object-fit: cover;
   aspect-ratio: 1;
 }
-.training-machine-learning-models-on-data {
+.text-ml-desc {
   color: #302268;
   text-align: center;
   font-family: "Inter-ExtraBold", sans-serif;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 400;
   position: relative;
   align-self: stretch;
 }
-.frame-20 {
+.frame-agile {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -334,12 +344,12 @@
   object-fit: cover;
   aspect-ratio: 1;
 }
-.experience-with-scrum-agile-practices {
+.text-scrum-desc {
   color: #302268;
   text-align: center;
   font-family: "Inter-ExtraBold", sans-serif;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 400;
   position: relative;
   align-self: stretch;
 }

@@ -1,16 +1,11 @@
 import './App.css';
-
+// HTML and CSS heavily assisted by Figma and the AutoHTML plugin.
 function App() {
   return (
     <div className="App">
-      {/* <nav className="navbar">
-        <div className="nav-item">Home</div>
-        <div className="nav-item">Education</div>
-        <div className="nav-item">Experience</div>
-        <div className="nav-item">Contact</div>
-      </nav> */}
       <div className="window">
         <div className="frame-view">
+          {/* HOME/INTRO PAGE */}
           <div className="home-page">
             <div className="rectangle-behind-img"></div>
             <img className="image-headshot" src="/images/Headshot.JPG" alt="Madeleinne's Headshot"/>
@@ -19,6 +14,7 @@ function App() {
               <div className="ima-sw">I'm a software engineer.</div>
             </div>        
           </div>
+          {/* EDUCATION */}
           <div className="education">
             <div className="rectangle-behind-grad-img"></div>
             <img className="image-grad-photo" src="/images/2025Sign.JPG" alt="Madeleinne standing in front of a 2025 sign"/>
@@ -30,13 +26,13 @@ function App() {
                   project, including but not limited to:{" "}
                 </div>
               </div>
-              <div className="frame-24">
-                <div className="frame-22">
-                  <div className="frame-18">
+              <div className="frame-skills-encompassing">
+                <div className="frame-toptext">
+                  <div className="frame-web">
                     <img className="web-design" src="/images/web-design0.png"/>
                     <div className="web-development">Web Development </div>
                   </div>
-                  <div className="frame-19">
+                  <div className="frame-data">
                     <img
                       className="database-administrator"
                       src="/images/database-administrator0.png"
@@ -45,32 +41,40 @@ function App() {
                       Database Management (Firebase, SQL){" "}
                     </div>
                   </div>
-                  <div className="frame-21">
+                  <div className="frame-ai">
                     <img
                       className="artificial-intelligence"
                       src="/images/artificial-intelligence0.png"
                     />
-                    <div className="experience-working-with-ai-ll-ms-gemini-api">
+                    <div className="text-ai-desc">
                       Experience working with AI LLMs (Gemini API){" "}
                     </div>
                   </div>
                 </div>
-                <div className="frame-23">
-                  <div className="frame-17">
+                <div className="frame-lowertext">
+                  <div className="frame-ml">
                     <img className="graph" src="/images/graph0.png" />
-                    <div className="training-machine-learning-models-on-data">
+                    <div className="text-ml-desc">
                       Training Machine Learning models on Data{" "}
                     </div>
                   </div>
-                  <div className="frame-20">
+                  <div className="frame-agile">
                     <img className="timesheet" src="/images/timesheet0.png" />
-                    <div className="experience-with-scrum-agile-practices">
+                    <div className="text-scrum-desc">
                       Experience with Scrum / Agile practices{" "}
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+          {/* EXPERIENCE */}
+          <div className="experience">
+
+          </div>
+          {/* CONTACT */}
+          <div className="contact">
+
           </div>
         </div>
       </div>
