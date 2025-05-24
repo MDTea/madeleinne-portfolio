@@ -66,16 +66,69 @@ function App() {
                   </div>
                 </div>
               </div>
+              <div className="frame-26">
+                <img className="resume" src="/images/resume0.png" />
+                <div className="resume-button">
+                  Want to learn more? Click here to download a copy of my
+                  resume!{" "}
+                </div>
+              </div>
             </div>
           </div>
           {/* EXPERIENCE */}
-          <div className="experience">
-
+          <div className="projects">
+            <div className="frame-11">
+              <div className="frame-8">
+                <div className="capstone">Capstone </div>
+                <img className="vector-1" src="vector-10.svg" />
+              </div>
+              <div className="frame-10">
+                <div className="sase-web-committee-member">
+                  SASE Web Committee Member{" "}
+                </div>
+                <img className="vector-2" src="vector-20.svg" />
+              </div>
+              <div className="frame-9">
+                <div className="training-a-naive-bayes-ml-model">
+                  Training a Naive-Bayes ML Model{" "}
+                </div>
+                <img className="vector-3" src="vector-30.svg" />
+              </div>
+            </div>
+            <div className="frame-12">
+              <div className="projects-and-experience">
+                Projects and Experience{" "}
+              </div>
+            </div>
           </div>
           {/* CONTACT */}
-          <div className="contact">
-
-          </div>
+          <section className="contact">
+            <div className="contact-header">
+              <h2 className="contact-title">Contact Information</h2>
+              <p className="contact-subtitle">Let’s get in touch!</p>
+            </div>
+            <div className="contact-cards">
+              <div className="contact-card">
+                <img src="/images/email0.png" alt="Email icon" className="contact-icon" />
+                <h3>Email</h3>
+                <a href="mailto:madeleinne.tan@gmail.com" className="contact-link">madeleinne.tan@gmail.com</a>
+              </div>
+              <div className="contact-card">
+                <img src="/images/linked-in0.png" alt="LinkedIn icon" className="contact-icon" />
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/madeleinne-tan/" target="_blank" rel="noopener noreferrer" className="contact-link">
+                  linkedin.com/in/madeleinne-tan
+                </a>
+              </div>
+              <div className="contact-card">
+                <img src="/images/git-hub0.png" alt="GitHub icon" className="contact-icon" />
+                <h3>GitHub</h3>
+                <a href="https://github.com/MDTea" target="_blank" rel="noopener noreferrer" className="contact-link">
+                  github.com/MDTea
+                </a>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
       <nav className="navbar">
@@ -85,7 +138,6 @@ function App() {
         <div className="nav-item">Contact</div>
       </nav>
     </div>
-
   );
 }
 
