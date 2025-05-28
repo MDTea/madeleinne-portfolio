@@ -8,7 +8,7 @@
     <div className="contact-card">
       <img src="/images/email0.png" alt="Email icon" className="contact-icon" />
       <h3>Email</h3>
-      <a href="mailto:madeleinne.tan@gmail.com" className="contact-link">madeleinne.tan@gmail.com</a>
+      <a href="mailto:@gmail.com" className="contact-link">madeleinne.tan@gmail.com</a>
     </div>
 
     <div className="contact-card">

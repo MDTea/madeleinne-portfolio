@@ -20,7 +20,7 @@ function App() {
             <img className="image-grad-photo" src="/images/2025Sign.JPG" alt="Madeleinne standing in front of a 2025 sign"/>
             <div className="education-text-content">
               <div className="asu-alumna">
-                <div className="asu-introduction">
+                <div className="content-text">
                   I am a proud Arizona State University (ASU) Alumna. It is with
                   great joy that I can provide the following skills to my next
                   project, including but not limited to:{" "}
@@ -66,7 +66,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="frame-26">
+              <div className="resume-button-div">
                 <img className="resume" src="/images/resume0.png" />
                 <div className="resume-button">
                   Want to learn more? Click here to download a copy of my
@@ -77,35 +77,35 @@ function App() {
           </div>
           {/* EXPERIENCE */}
           <div className="projects">
-            <div className="frame-11">
-              <div className="frame-8">
+            <div className="project-list-div">
+              <div className="capstone-box">
                 <div className="capstone">Capstone </div>
                 <img className="vector-1" src="vector-10.svg" />
               </div>
-              <div className="frame-10">
+              <div className="sase-box">
                 <div className="sase-web-committee-member">
                   SASE Web Committee Member{" "}
                 </div>
                 <img className="vector-2" src="vector-20.svg" />
               </div>
-              <div className="frame-9">
+              <div className="nb-model-box">
                 <div className="training-a-naive-bayes-ml-model">
                   Training a Naive-Bayes ML Model{" "}
                 </div>
                 <img className="vector-3" src="vector-30.svg" />
               </div>
             </div>
-            <div className="frame-12">
+            <div className="project-header">
               <div className="projects-and-experience">
-                Projects and Experience{" "}
+                Here are my projects and experience!{" "}
               </div>
             </div>
           </div>
           {/* CONTACT */}
-          <section className="contact">
+          <div className="contact">
             <div className="contact-header">
-              <h2 className="contact-title">Contact Information</h2>
-              <p className="contact-subtitle">Let’s get in touch!</p>
+              <div className="contact-title">Contact Information</div>
+              <div className="contact-subtitle">Let’s get in touch!</div>
             </div>
             <div className="contact-cards">
               <div className="contact-card">
@@ -128,7 +128,8 @@ function App() {
                 </a>
               </div>
             </div>
-          </section>
+          </div>
+
         </div>
       </div>
       <nav className="navbar">
@@ -138,6 +139,7 @@ function App() {
         <div className="nav-item">Contact</div>
       </nav>
     </div>
+
   );
 }
 
