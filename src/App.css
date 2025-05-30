@@ -391,6 +391,15 @@ body, html, #root {
   flex-shrink: 0;
   height: 14vh;
   position: relative;
+
+  color: #ffffff;
+  background: #7262b3;
+  text-align: center;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 100%;
 }
 .resume {
   flex-shrink: 0;
@@ -401,12 +410,18 @@ body, html, #root {
 }
 .resume-button {
   color: #ffffff;
+  background: #7262b3;
   text-align: center;
   font-family: "Inter-ExtraBold", sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: relative;
   width: 100%;
+}
+.resume-button-div:hover{
+  background-color: #5b4d92;
+  color: #f1f1ff;
+  transform: scale(1.05);
 }
 .projects {
   background: #f8f8fc;
