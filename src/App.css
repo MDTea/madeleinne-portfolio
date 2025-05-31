@@ -11,6 +11,12 @@ body, html, #root {
   font-family: Inter, sans-serif;
 }
 
+.ul{
+  list-style-type: circle;
+  align-items: left;
+  justify-content: left;
+}
+
 .App {
   text-align: center;
   font-family:Inter;
@@ -436,8 +442,8 @@ body, html, #root {
   flex-direction: row;
   gap: 45px;
   margin: 10px;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   position: absolute;
   left: 50px;
   top: 175px;
@@ -452,7 +458,7 @@ body, html, #root {
   display: flex;
   flex-direction: column;
   gap: 0px;
-  align-items: center;
+  align-items: left;
   justify-content: flex-start;
   flex-shrink: 0;
   width: 25vw;
@@ -461,11 +467,17 @@ body, html, #root {
 }
 .capstone {
   color: #302268;
-  text-align: left;
+  text-align: center;
   font-family: "Inter-ExtraBold", sans-serif;
   font-size: 18px;
   font-weight: 600;
   position: relative;
+}
+.capstone-box-content{
+  text-align: left;
+}
+.li{
+  text-align: left;
 }
 .vector-1 {
   flex-shrink: 0;
@@ -498,8 +510,12 @@ body, html, #root {
   font-size: 18px;
   font-weight: 600;
   position: relative;
-  width: 385px;
+  width: 22vw;
   height: 88px;
+}
+.sase-box-content{
+  text-align: left;
+  /* width: 22vw; */
 }
 .vector-2 {
   flex-shrink: 0;
@@ -533,7 +549,11 @@ body, html, #root {
   font-weight: 600;
   position: relative;
   width: 385px;
-  height: 88px;
+  /* height: 88px; */
+}
+.nb-box-content{
+  margin-top: 10%;
+  text-align: left;
 }
 .vector-3 {
   flex-shrink: 0;

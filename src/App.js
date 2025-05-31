@@ -97,21 +97,47 @@ function App() {
             <div className="project-list-div">
               <div className="capstone-box">
                 <div className="capstone">Capstone </div>
-                <div className="exp-box-content">
-                  - Melm mllem mlememlemaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                </div>
+                <ul className="capstone-box-content">
+                  <li>
+                    Built an AI chatbot that would assist Canadian senior citizens with applying for financial aid programs, as applications to programs such as the Canada Pension Plan (CPP) have inaccessible interfaces for the elderly.
+                  </li>
+                  <li>
+                    The chatbot would supply some knowledge and help the elderly apply with the confidence that cannot be supported by existing applications.
+                  </li>
+                  <li>
+                    Sponsored by Beam Group, a company dedicated to public service. 
+                  </li>
+                  <li>
+                    To ask for further questions about this project or a reference for our team's performance, please contact Jerrett Myers (insert link here).
+                  </li>
+                </ul>
                 <img className="vector-1" src="vector-10.svg" />
               </div>
               <div className="sase-box">
                 <div className="sase-web-committee-member">
-                  SASE Web Committee Member{" "}
+                  SASE Web Committee Member and Dance Co-Captain{" "}
                 </div>
+                <ul className="sase-box-content">
+                  <li>The Society of Asian Scientists and Engineers (SASE) is a student organization that supports career development, academic success, and student networking.</li>
+                  <li>Contributed to ASU SASE's website's UI and UI responsiveness.</li>
+                  <li>Briefly contributed to the administrative pages by making a form for the admins to track the number of active student members in SASE.</li>
+                  <li>SASE Dance Member for 5 semesters and Dance Co-Captain to instruct the choreography of "Chk Chk Boom" by Stray Kids
+                    <li>SASE Dance is a "sub-unit" unique to SASE ASU to support student networking, teamwork, and bonding over music popular in Asia.</li>
+                  </li>
+                </ul>
                 <img className="vector-2" src="vector-20.svg" />
               </div>
               <div className="nb-model-box">
                 <div className="training-a-naive-bayes-ml-model">
                   Training a Naive-Bayes ML Model{" "}
                 </div>
+                <ul className="nb-box-content">
+                  <li>CSE 475 : Intro to Machine Learning Academic project</li>
+                  <li>Chose dataset from Kaggle about Netflix movies and tv shows</li>
+                  <li>The goal of this project was to take the dataset, perform exploratory analysis on it, clean it, perform any necessary encoding, train the ML model on a portion of the data, then test the fitted model on the remaining portion of data</li>
+                  <li>Trained a Naive-Bayes Model to predict a movie's rating (e.g. PG, G, PG-13, R) based on its movie description, the cast, the director, and duration.</li>
+                  <li>Accuracy and precision were 43%, likely due to underfitting. </li>
+                </ul>
                 <img className="vector-3" src="vector-30.svg" />
               </div>
             </div>

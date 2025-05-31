@@ -1,30 +1,34 @@
-<section className="contact">
-  <div className="contact-header">
-    <h2 className="contact-title">Contact Information</h2>
-    <p className="contact-subtitle">Let’s get in touch!</p>
-  </div>
+import './App.css';
+// HTML and CSS heavily assisted by Figma and the AutoHTML plugin.
+function App() {
+  return (
+    <div className="App">
+      <div className="window">
+        <div className="frame-view">
+          {/* HOME/INTRO PAGE */}
+          <div className="home-page">       
+          </div>
+          {/* EDUCATION */}
+          <div className="education">
+          </div>
+          {/* EXPERIENCE */}
+          <div className="projects">
+          </div>
+          {/* CONTACT */}
+          <div className="contact">
+          </div>
 
-  <div className="contact-cards">
-    <div className="contact-card">
-      <img src="/images/email0.png" alt="Email icon" className="contact-icon" />
-      <h3>Email</h3>
-      <a href="mailto:@gmail.com" className="contact-link">madeleinne.tan@gmail.com</a>
+        </div>
+      </div>
+      <nav className="navbar">
+        <div className="nav-item">Home</div>
+        <div className="nav-item">Education</div>
+        <div className="nav-item">Experience</div>
+        <div className="nav-item">Contact</div>
+      </nav>
     </div>
 
-    <div className="contact-card">
-      <img src="/images/linked-in0.png" alt="LinkedIn icon" className="contact-icon" />
-      <h3>LinkedIn</h3>
-      <a href="https://www.linkedin.com/in/madeleinne-tan/" target="_blank" rel="noopener noreferrer" className="contact-link">
-        linkedin.com/in/madeleinne-tan
-      </a>
-    </div>
+  );
+}
 
-    <div className="contact-card">
-      <img src="/images/git-hub0.png" alt="GitHub icon" className="contact-icon" />
-      <h3>GitHub</h3>
-      <a href="https://github.com/MDTea" target="_blank" rel="noopener noreferrer" className="contact-link">
-        github.com/MDTea
-      </a>
-    </div>
-  </div>
-</section>
+export default App;
